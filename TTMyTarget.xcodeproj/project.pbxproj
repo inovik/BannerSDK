@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A102F841D008AFC00CCA9C7 /* TTStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A102F831D008AFC00CCA9C7 /* TTStarView.m */; };
+		7A102F881D00BEB700CCA9C7 /* TTResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A102F871D00BEB700CCA9C7 /* TTResponseSerializer.m */; };
+		7A1D04941CFD860F006F3162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04931CFD860F006F3162 /* main.m */; };
+		7A1D04971CFD860F006F3162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04961CFD860F006F3162 /* AppDelegate.m */; };
+		7A1D049A1CFD860F006F3162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04991CFD860F006F3162 /* ViewController.m */; };
+		7A1D049D1CFD860F006F3162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D049B1CFD860F006F3162 /* Main.storyboard */; };
+		7A1D049F1CFD860F006F3162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D049E1CFD860F006F3162 /* Assets.xcassets */; };
+		7A1D04A21CFD860F006F3162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D04A01CFD860F006F3162 /* LaunchScreen.storyboard */; };
+		7A1D04B01CFD8A59006F3162 /* TTMyTargetSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04AF1CFD8A59006F3162 /* TTMyTargetSDK.m */; };
+		7A1D04B41CFD8C2D006F3162 /* TTTransportService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04B31CFD8C2D006F3162 /* TTTransportService.m */; };
+		7A1D04B81CFD9D39006F3162 /* TTMappingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04B71CFD9D39006F3162 /* TTMappingService.m */; };
+		7A1D04C51CFDB98E006F3162 /* TTBaseBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04C41CFDB98E006F3162 /* TTBaseBannerModel.m */; };
+		7A1D04C91CFDBAD8006F3162 /* TTIconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04C81CFDBAD8006F3162 /* TTIconModel.m */; };
+		7A1D04E01CFDD032006F3162 /* TTBannerDescriptionViewWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04DF1CFDD032006F3162 /* TTBannerDescriptionViewWeb.m */; };
+		7A1D04E31CFDD043006F3162 /* TTBannerDescriptionViewApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04E21CFDD043006F3162 /* TTBannerDescriptionViewApp.m */; };
+		7A1D04F01CFDE2D5006F3162 /* TTBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D04EF1CFDE2D5006F3162 /* TTBannerView.m */; };
+		7A1D05221CFF55AB006F3162 /* UIView+AutolayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D05211CFF55AB006F3162 /* UIView+AutolayoutHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A102F821D008AFC00CCA9C7 /* TTStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStarView.h; sourceTree = "<group>"; };
+		7A102F831D008AFC00CCA9C7 /* TTStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStarView.m; sourceTree = "<group>"; };
+		7A102F851D00BAFB00CCA9C7 /* TTJSONSerializingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTJSONSerializingProtocol.h; sourceTree = "<group>"; };
+		7A102F861D00BEB700CCA9C7 /* TTResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTResponseSerializer.h; sourceTree = "<group>"; };
+		7A102F871D00BEB700CCA9C7 /* TTResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTResponseSerializer.m; sourceTree = "<group>"; };
+		7A102F8A1D00BEDD00CCA9C7 /* TTResponseSerializerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTResponseSerializerProtocol.h; sourceTree = "<group>"; };
+		7A1D048F1CFD860F006F3162 /* TTMyTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTMyTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1D04931CFD860F006F3162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A1D04951CFD860F006F3162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A1D04961CFD860F006F3162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A1D04981CFD860F006F3162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A1D04991CFD860F006F3162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A1D049C1CFD860F006F3162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A1D049E1CFD860F006F3162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1D04A11CFD860F006F3162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1D04A31CFD860F006F3162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1D04AE1CFD8A59006F3162 /* TTMyTargetSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMyTargetSDK.h; sourceTree = "<group>"; };
+		7A1D04AF1CFD8A59006F3162 /* TTMyTargetSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMyTargetSDK.m; sourceTree = "<group>"; };
+		7A1D04B11CFD8B30006F3162 /* TTMyTargetSDKProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMyTargetSDKProtocol.h; sourceTree = "<group>"; };
+		7A1D04B21CFD8C2D006F3162 /* TTTransportService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTransportService.h; sourceTree = "<group>"; };
+		7A1D04B31CFD8C2D006F3162 /* TTTransportService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTransportService.m; sourceTree = "<group>"; };
+		7A1D04B51CFD8C3F006F3162 /* TTTransportServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTransportServiceProtocol.h; sourceTree = "<group>"; };
+		7A1D04B61CFD9D39006F3162 /* TTMappingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMappingService.h; sourceTree = "<group>"; };
+		7A1D04B71CFD9D39006F3162 /* TTMappingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMappingService.m; sourceTree = "<group>"; };
+		7A1D04B91CFD9D5D006F3162 /* TTMappingServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMappingServiceProtocol.h; sourceTree = "<group>"; };
+		7A1D04BE1CFDB4A2006F3162 /* TTBaseBannerModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseBannerModelProtocol.h; sourceTree = "<group>"; };
+		7A1D04C31CFDB98E006F3162 /* TTBaseBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseBannerModel.h; sourceTree = "<group>"; };
+		7A1D04C41CFDB98E006F3162 /* TTBaseBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseBannerModel.m; sourceTree = "<group>"; };
+		7A1D04C71CFDBAD8006F3162 /* TTIconModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIconModel.h; sourceTree = "<group>"; };
+		7A1D04C81CFDBAD8006F3162 /* TTIconModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTIconModel.m; sourceTree = "<group>"; };
+		7A1D04CA1CFDBAEA006F3162 /* TTIconModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIconModelProtocol.h; sourceTree = "<group>"; };
+		7A1D04DE1CFDD032006F3162 /* TTBannerDescriptionViewWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBannerDescriptionViewWeb.h; sourceTree = "<group>"; };
+		7A1D04DF1CFDD032006F3162 /* TTBannerDescriptionViewWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBannerDescriptionViewWeb.m; sourceTree = "<group>"; };
+		7A1D04E11CFDD043006F3162 /* TTBannerDescriptionViewApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBannerDescriptionViewApp.h; sourceTree = "<group>"; };
+		7A1D04E21CFDD043006F3162 /* TTBannerDescriptionViewApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBannerDescriptionViewApp.m; sourceTree = "<group>"; };
+		7A1D04EE1CFDE2D5006F3162 /* TTBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBannerView.h; sourceTree = "<group>"; };
+		7A1D04EF1CFDE2D5006F3162 /* TTBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBannerView.m; sourceTree = "<group>"; };
+		7A1D05201CFF55AB006F3162 /* UIView+AutolayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutolayoutHelper.h"; sourceTree = "<group>"; };
+		7A1D05211CFF55AB006F3162 /* UIView+AutolayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutolayoutHelper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1D048C1CFD860F006F3162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A102F891D00BEBD00CCA9C7 /* ResponseSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				7A102F861D00BEB700CCA9C7 /* TTResponseSerializer.h */,
+				7A102F871D00BEB700CCA9C7 /* TTResponseSerializer.m */,
+				7A102F8A1D00BEDD00CCA9C7 /* TTResponseSerializerProtocol.h */,
+			);
+			path = ResponseSerializer;
+			sourceTree = "<group>";
+		};
+		7A1D04861CFD860F006F3162 = {
+			isa = PBXGroup;
+			children = (
+				7A1D04901CFD860F006F3162 /* Products */,
+				7A1D04911CFD860F006F3162 /* TTMyTarget */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1D04901CFD860F006F3162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D048F1CFD860F006F3162 /* TTMyTarget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A1D04911CFD860F006F3162 /* TTMyTarget */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04A91CFD8941006F3162 /* MyTargetSDK */,
+				7A1D04921CFD860F006F3162 /* Supporting Files */,
+				7A1D04951CFD860F006F3162 /* AppDelegate.h */,
+				7A1D04961CFD860F006F3162 /* AppDelegate.m */,
+				7A1D049E1CFD860F006F3162 /* Assets.xcassets */,
+				7A1D04A31CFD860F006F3162 /* Info.plist */,
+				7A1D04A01CFD860F006F3162 /* LaunchScreen.storyboard */,
+				7A1D049B1CFD860F006F3162 /* Main.storyboard */,
+				7A1D04981CFD860F006F3162 /* ViewController.h */,
+				7A1D04991CFD860F006F3162 /* ViewController.m */,
+			);
+			path = TTMyTarget;
+			sourceTree = "<group>";
+		};
+		7A1D04921CFD860F006F3162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04931CFD860F006F3162 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A1D04A91CFD8941006F3162 /* MyTargetSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04AB1CFD8974006F3162 /* MappingService */,
+				7A1D04AC1CFD899E006F3162 /* Model */,
+				7A1D04AA1CFD895C006F3162 /* TransportService */,
+				7A1D04AD1CFD89EE006F3162 /* UIPresentation */,
+				7A1D04E71CFDDF1C006F3162 /* Utils */,
+				7A1D04AE1CFD8A59006F3162 /* TTMyTargetSDK.h */,
+				7A1D04AF1CFD8A59006F3162 /* TTMyTargetSDK.m */,
+				7A1D04B11CFD8B30006F3162 /* TTMyTargetSDKProtocol.h */,
+			);
+			path = MyTargetSDK;
+			sourceTree = "<group>";
+		};
+		7A1D04AA1CFD895C006F3162 /* TransportService */ = {
+			isa = PBXGroup;
+			children = (
+				7A102F891D00BEBD00CCA9C7 /* ResponseSerializer */,
+				7A1D04B21CFD8C2D006F3162 /* TTTransportService.h */,
+				7A1D04B31CFD8C2D006F3162 /* TTTransportService.m */,
+				7A1D04B51CFD8C3F006F3162 /* TTTransportServiceProtocol.h */,
+			);
+			path = TransportService;
+			sourceTree = "<group>";
+		};
+		7A1D04AB1CFD8974006F3162 /* MappingService */ = {
+			isa = PBXGroup;
+			children = (
+				7A102F851D00BAFB00CCA9C7 /* TTJSONSerializingProtocol.h */,
+				7A1D04B61CFD9D39006F3162 /* TTMappingService.h */,
+				7A1D04B71CFD9D39006F3162 /* TTMappingService.m */,
+				7A1D04B91CFD9D5D006F3162 /* TTMappingServiceProtocol.h */,
+			);
+			path = MappingService;
+			sourceTree = "<group>";
+		};
+		7A1D04AC1CFD899E006F3162 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04C21CFDB4FB006F3162 /* BaseBannerModel */,
+				7A1D04CB1CFDBAF7006F3162 /* IconModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A1D04AD1CFD89EE006F3162 /* UIPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04D91CFDCF2B006F3162 /* Banner */,
+			);
+			path = UIPresentation;
+			sourceTree = "<group>";
+		};
+		7A1D04C21CFDB4FB006F3162 /* BaseBannerModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04C31CFDB98E006F3162 /* TTBaseBannerModel.h */,
+				7A1D04C41CFDB98E006F3162 /* TTBaseBannerModel.m */,
+				7A1D04BE1CFDB4A2006F3162 /* TTBaseBannerModelProtocol.h */,
+			);
+			path = BaseBannerModel;
+			sourceTree = "<group>";
+		};
+		7A1D04CB1CFDBAF7006F3162 /* IconModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04C71CFDBAD8006F3162 /* TTIconModel.h */,
+				7A1D04C81CFDBAD8006F3162 /* TTIconModel.m */,
+				7A1D04CA1CFDBAEA006F3162 /* TTIconModelProtocol.h */,
+			);
+			path = IconModel;
+			sourceTree = "<group>";
+		};
+		7A1D04D91CFDCF2B006F3162 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04DA1CFDCFDB006F3162 /* BannerDescription */,
+				7A1D04EE1CFDE2D5006F3162 /* TTBannerView.h */,
+				7A1D04EF1CFDE2D5006F3162 /* TTBannerView.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		7A1D04DA1CFDCFDB006F3162 /* BannerDescription */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D04E11CFDD043006F3162 /* TTBannerDescriptionViewApp.h */,
+				7A1D04E21CFDD043006F3162 /* TTBannerDescriptionViewApp.m */,
+				7A1D04DE1CFDD032006F3162 /* TTBannerDescriptionViewWeb.h */,
+				7A1D04DF1CFDD032006F3162 /* TTBannerDescriptionViewWeb.m */,
+				7A102F821D008AFC00CCA9C7 /* TTStarView.h */,
+				7A102F831D008AFC00CCA9C7 /* TTStarView.m */,
+			);
+			path = BannerDescription;
+			sourceTree = "<group>";
+		};
+		7A1D04E71CFDDF1C006F3162 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7A1D05201CFF55AB006F3162 /* UIView+AutolayoutHelper.h */,
+				7A1D05211CFF55AB006F3162 /* UIView+AutolayoutHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1D048E1CFD860F006F3162 /* TTMyTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1D04A61CFD860F006F3162 /* Build configuration list for PBXNativeTarget "TTMyTarget" */;
+			buildPhases = (
+				7A1D048B1CFD860F006F3162 /* Sources */,
+				7A1D048C1CFD860F006F3162 /* Frameworks */,
+				7A1D048D1CFD860F006F3162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTMyTarget;
+			productName = TTMyTarget;
+			productReference = 7A1D048F1CFD860F006F3162 /* TTMyTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1D04871CFD860F006F3162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = inov;
+				TargetAttributes = {
+					7A1D048E1CFD860F006F3162 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7A1D048A1CFD860F006F3162 /* Build configuration list for PBXProject "TTMyTarget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1D04861CFD860F006F3162;
+			productRefGroup = 7A1D04901CFD860F006F3162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1D048E1CFD860F006F3162 /* TTMyTarget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1D048D1CFD860F006F3162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1D04A21CFD860F006F3162 /* LaunchScreen.storyboard in Resources */,
+				7A1D049F1CFD860F006F3162 /* Assets.xcassets in Resources */,
+				7A1D049D1CFD860F006F3162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1D048B1CFD860F006F3162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1D04C51CFDB98E006F3162 /* TTBaseBannerModel.m in Sources */,
+				7A1D05221CFF55AB006F3162 /* UIView+AutolayoutHelper.m in Sources */,
+				7A102F881D00BEB700CCA9C7 /* TTResponseSerializer.m in Sources */,
+				7A1D04B81CFD9D39006F3162 /* TTMappingService.m in Sources */,
+				7A1D049A1CFD860F006F3162 /* ViewController.m in Sources */,
+				7A1D04C91CFDBAD8006F3162 /* TTIconModel.m in Sources */,
+				7A1D04B01CFD8A59006F3162 /* TTMyTargetSDK.m in Sources */,
+				7A1D04971CFD860F006F3162 /* AppDelegate.m in Sources */,
+				7A1D04F01CFDE2D5006F3162 /* TTBannerView.m in Sources */,
+				7A1D04E01CFDD032006F3162 /* TTBannerDescriptionViewWeb.m in Sources */,
+				7A1D04941CFD860F006F3162 /* main.m in Sources */,
+				7A1D04E31CFDD043006F3162 /* TTBannerDescriptionViewApp.m in Sources */,
+				7A1D04B41CFD8C2D006F3162 /* TTTransportService.m in Sources */,
+				7A102F841D008AFC00CCA9C7 /* TTStarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A1D049B1CFD860F006F3162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1D049C1CFD860F006F3162 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		7A1D04A01CFD860F006F3162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1D04A11CFD860F006F3162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A1D04A41CFD860F006F3162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A1D04A51CFD860F006F3162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1D04A71CFD860F006F3162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTMyTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inov.TTMyTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A1D04A81CFD860F006F3162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTMyTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inov.TTMyTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1D048A1CFD860F006F3162 /* Build configuration list for PBXProject "TTMyTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1D04A41CFD860F006F3162 /* Debug */,
+				7A1D04A51CFD860F006F3162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1D04A61CFD860F006F3162 /* Build configuration list for PBXNativeTarget "TTMyTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1D04A71CFD860F006F3162 /* Debug */,
+				7A1D04A81CFD860F006F3162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1D04871CFD860F006F3162 /* Project object */;
+}
